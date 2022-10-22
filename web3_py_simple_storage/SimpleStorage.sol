@@ -35,9 +35,9 @@ contract SimpleStorage {
         nameToFavoriteNumber[_name] = _favoriteNumber;
     }
 
-    function getPerson() public view returns (People[] memory) {
-        return people;
-    }
+    // function getPerson() public view returns (People[] memory) {
+    //     return people;
+    // }
 
     // function multiple() public pure returns (uint256 favoriteNumber) {
     //      favoriteNumber * favoriteNumber;
